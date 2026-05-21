@@ -1,0 +1,52 @@
+{
+  "id": "zhengke-youyu",
+  "displayName": "zhengke",
+  "description": "A custom 9-frame pet.",
+  "spritesheetPath": "spritesheet.webp",
+  "spritesheet": {
+    "width": 2304,
+    "height": 2592,
+    "columns": 9,
+    "rows": 9,
+    "cellWidth": 256,
+    "cellHeight": 288
+  },
+  "actions": {
+    "idle": {
+      "row": 0,
+      "frameCount": 9
+    },
+    "move-left": {
+      "row": 1,
+      "frameCount": 9
+    },
+    "move-right": {
+      "row": 2,
+      "frameCount": 9
+    },
+    "greet": {
+      "row": 3,
+      "frameCount": 9
+    },
+    "working": {
+      "row": 4,
+      "frameCount": 9
+    },
+    "waiting": {
+      "row": 5,
+      "frameCount": 9
+    },
+    "success": {
+      "row": 6,
+      "frameCount": 9
+    },
+    "failed": {
+      "row": 7,
+      "frameCount": 9
+    },
+    "special": {
+      "row": 8,
+      "frameCount": 9
+    }
+  }
+}
